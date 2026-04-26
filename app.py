@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello DevOps CI"
+    return "Collaboration update"
 
 if __name__ == '__main__':
     app.run(debug=True)
